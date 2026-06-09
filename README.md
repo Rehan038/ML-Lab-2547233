@@ -56,10 +56,4 @@ jupyter notebook
 
 ---
 
-If you want, I can also:
-
-- add a `requirements.txt` or `environment.yml` for reproducibility
-- run the notebook and save an HTML/PDF export
-- initialize a `.gitignore` tuned for Jupyter/VSCode artifacts
-
-Let me know which of these you'd like next.
+I
