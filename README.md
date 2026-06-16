@@ -5,7 +5,7 @@ This repository contains the Machine Learning lab work for Trimester 4. It now a
 ## Lab index
 
 - Lab 1: [ML-LAB1/README.md](ML-LAB1/README.md) and [ML-LAB1/ML_LAB1.ipynb](ML-LAB1/ML_LAB1.ipynb)
-- Lab 2: not present in this workspace yet
+- Lab 2: available on the `lab2` branch
 - Lab 3: available on the `lab3` branch
 
 ## Shared resources
