@@ -1,20 +1,17 @@
 # ML Lab — Trimester 4
 
-This repository contains the coursework and experiments for the Machine Learning lab (Trimester 4). It includes datasets and a Jupyter notebook demonstrating data exploration and model work for the class lab exercises.
+This repository contains the Machine Learning lab work for Trimester 4. It now acts as a lightweight index for Lab 1, Lab 2, and Lab 3.
 
-## Repository structure
+## Lab index
 
-- `dataset/` — CSV data files used in the lab:
-	- `city_day.csv` — daily city-level observations (description below).
-	- `crop_production.csv` — historical crop production data.
-- `ML-LAB1/ML_LAB1.ipynb` — primary Jupyter notebook with analysis, visualizations, and model exercises.
+- Lab 1: [ML-LAB1/README.md](ML-LAB1/README.md) and [ML-LAB1/ML_LAB1.ipynb](ML-LAB1/ML_LAB1.ipynb)
+- Lab 2: not present in this workspace yet
+- Lab 3: available on the `lab3` branch
 
-## Datasets
+## Shared resources
 
-- `city_day.csv`: daily measurements aggregated by city. Use this dataset for time-series exploration, aggregation, and visualization exercises.
-- `crop_production.csv`: contains crop production metrics (year, crop type, production values). Useful for regression and trend analysis tasks.
-
-If you need more details about columns, open the CSV files directly or inspect the notebook cells where the datasets are loaded and described.
+- [ML-LAB1/dataset/city_day.csv](ML-LAB1/dataset/city_day.csv) - city-level daily observations
+- [ML-LAB1/dataset/crop_production.csv](ML-LAB1/dataset/crop_production.csv) - crop production data
 
 ## Requirements
 
@@ -22,7 +19,7 @@ If you need more details about columns, open the CSV files directly or inspect t
 - Jupyter or JupyterLab
 - Common data science packages: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
 
-You can install the basic requirements with pip:
+Install the basic requirements with pip:
 
 ```bash
 python -m pip install --upgrade pip
@@ -31,28 +28,22 @@ pip install pandas numpy matplotlib seaborn scikit-learn notebook
 
 ## How to run
 
-1. Clone or pull this repository.
-2. Install the dependencies (see Requirements).
-3. Launch Jupyter in the repository root:
+1. Open the repository in VS Code or clone it locally.
+2. Install the Python dependencies.
+3. Launch Jupyter from the repository root:
 
 ```bash
 jupyter notebook
 ```
 
-4. Open `ML-LAB1/ML_LAB1.ipynb` and run the cells.
+4. Open the lab notebook you want to run and execute the cells.
 
-## Notes and tips
+## Notes
 
-- The notebook includes data loading and example preprocessing steps; adapt the code to your experiments.
-- If datasets are large, consider sampling or using chunked reads with `pandas.read_csv(..., chunksize=...)`.
-
-## Contributing
-
-- This repository is intended for personal coursework. If you wish to share improvements or corrections, feel free to open a pull request or contact the owner.
+- Each lab keeps its own notebook and supporting files.
+- Lab 3 focuses on student survey preprocessing and simple linear regression.
 
 ## License
 
-- This project is for educational use. No explicit license is provided — contact the owner for reuse permissions.
-
----
+- This project is for educational use. No explicit license is provided.
 
