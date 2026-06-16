@@ -1,49 +1,21 @@
 # ML Lab — Trimester 4
 
-This repository contains the Machine Learning lab work for Trimester 4. It now acts as a lightweight index for Lab 1, Lab 2, and Lab 3.
+Machine Learning lab work for Trimester 4.
 
-## Lab index
+## Labs
 
-- Lab 1: [ML-LAB1/README.md](ML-LAB1/README.md) and [ML-LAB1/ML_LAB1.ipynb](ML-LAB1/ML_LAB1.ipynb)
-- Lab 2: available on the `lab2` branch
-- Lab 3: available on the `lab3` branch
+- **Lab 1**: Main branch - [ML-LAB1/](ML-LAB1/)
+- **Lab 2**: `lab2` branch
+- **Lab 3**: `lab3` branch
 
-## Shared resources
+## Setup
 
-- [ML-LAB1/dataset/city_day.csv](ML-LAB1/dataset/city_day.csv) - city-level daily observations
-- [ML-LAB1/dataset/crop_production.csv](ML-LAB1/dataset/crop_production.csv) - crop production data
+1. Clone the repository
+2. Install requirements: `pip install pandas numpy matplotlib seaborn scikit-learn notebook`
+3. Run: `jupyter notebook`
 
-## Requirements
+## Datasets
 
-- Python 3.8+ (recommended)
-- Jupyter or JupyterLab
-- Common data science packages: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
-
-Install the basic requirements with pip:
-
-```bash
-python -m pip install --upgrade pip
-pip install pandas numpy matplotlib seaborn scikit-learn notebook
-```
-
-## How to run
-
-1. Open the repository in VS Code or clone it locally.
-2. Install the Python dependencies.
-3. Launch Jupyter from the repository root:
-
-```bash
-jupyter notebook
-```
-
-4. Open the lab notebook you want to run and execute the cells.
-
-## Notes
-
-- Each lab keeps its own notebook and supporting files.
-- Lab 3 focuses on student survey preprocessing and simple linear regression.
-
-## License
-
-- This project is for educational use. No explicit license is provided.
+- `city_day.csv` - city-level daily observations
+- `crop_production.csv` - crop production data
 
