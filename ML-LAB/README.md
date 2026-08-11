@@ -1,59 +1,59 @@
 # ML Lab Repository Overview
 
-This repository contains the notebook work for Labs 1, 3, 4, 5, 6, 7, 8, and 9. This page is the main entry point for the repository and gives a quick summary of each lab for evaluation.
+This repository contains the notebooks and supporting files for Labs 1, 3, 4, 5, 6, 7, 8, and 9. The goal of this README is to give an evaluator a single, clean entry point to the work in the repository.
 
 ## Lab Summary
 
 ### Lab 1: Data Exploration and Preprocessing
-- Folder: [ML-LAB1](ML-LAB/ML-LAB1)
-- Focus: dataset inspection, preprocessing, and introductory notebook work.
+- Folder: `ML-LAB1/`
+- Focus: basic data exploration, dataset inspection, and preprocessing.
 - Includes the Lab 1 notebook and supporting datasets.
 
 ### Lab 3: Linear Regression Evaluation
-- Focus: regression evaluation and error measurement.
-- Key metrics: MAE, MSE, RMSE, and R².
-- Lab 3 is referenced later in Lab 4 when comparing regression and classification evaluation.
+- Focus: regression metrics and model evaluation.
+- Key ideas: MAE, MSE, RMSE, and R².
+- This lab is referenced later in Lab 4 when comparing regression and classification evaluation.
 
 ### Lab 4: KNN Classification and Metric Comparison
-- Folder: [ML Lab4](ML-LAB/ML%20Lab4)
-- Focus: KNN classification on the Breast Cancer Wisconsin dataset.
+- Folder: `ML Lab4/`
+- Focus: K-Nearest Neighbors classification on the Breast Cancer Wisconsin dataset.
 - Covers train-test split analysis, heuristic K selection, cross-validation, ROC-AUC, and comparison with regression metrics from Lab 3.
 
 ### Lab 5: Linear Regression Through Gradient Descent
-- Folder: [ML-lab5](ML-LAB/ML-lab5)
+- Folder: `ML-lab5/`
 - Focus: implementing linear regression from scratch using gradient descent.
 - Covers preprocessing, feature scaling, learning-rate experiments, convergence plots, and regression metrics.
 
 ### Lab 6: Logistic Regression vs KNN Classification
-- Folder: [ML-lab6](ML-LAB/ML-lab6)
+- Folder: `ML-lab6/`
 - Focus: comparing Logistic Regression and KNN on the Breast Cancer Wisconsin dataset.
 - Covers preprocessing, standardization, classification metrics, confusion matrices, and ROC-AUC.
 
 ### Lab 7: Decision Tree Classification on Iris
-- Folder: [ML-Lab7](ML-LAB/ML-Lab7)
-- Focus: Iris dataset exploration, train-test split, and Decision Tree classification.
+- Folder: `ML-Lab7/`
+- Focus: Iris dataset exploration, train-test splitting, and Decision Tree classification.
 - Covers dataset inspection, model evaluation with accuracy, confusion matrix, classification report, and tree visualization.
 
 ### Lab 8: Categorical Naive Bayes on Weather Data
-- Folder: [ML-Lab8](ML-LAB/ML-Lab8)
+- Folder: `ML-Lab8/`
 - Focus: play-tennis style weather classification using categorical features.
 - Covers label encoding, train-test split, Categorical Naive Bayes, evaluation metrics, and single-sample inference.
 
 ### Lab 9: SVM, PCA, and LDA
-- Folder: [ML-Lab9](ML-LAB/ML-Lab9)
+- Folder: `ML-Lab9/`
 - Focus: binary classification with SVM and dimensionality reduction with PCA and LDA.
 - Covers feature scaling, hyperparameter tuning, confusion matrix analysis, explained variance, and PCA vs LDA comparison.
 
 ## Repository Structure
 
-- `ML-LAB1/` - Lab 1 notebook and dataset files
+- `ML-LAB1/` - Lab 1 notebook and supporting data
 - `ML Lab4/` - Lab 4 notebook and README
 - `ML-lab5/` - Lab 5 notebook and README
 - `ML-lab6/` - Lab 6 notebook and README
 - `ML-Lab7/` - Lab 7 notebook and README
 - `ML-Lab8/` - Lab 8 notebook and README
 - `ML-Lab9/` - Lab 9 notebook and README
-- `dataset/` - shared datasets used by multiple labs
+- `dataset/` - shared datasets used by the notebooks
 
 ## How to Run
 
@@ -70,10 +70,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn notebook
 ## Notes for Evaluation
 
 - Each lab folder has its own README for a short lab-specific summary.
-- Labs 4 and 6 are classification-focused and compare models using accuracy, precision, recall, F1 score, confusion matrix, and ROC-AUC.
-- Lab 5 focuses on a custom gradient descent implementation rather than using a built-in regression estimator only.
-- Lab 3 provides the regression metrics referenced by later labs.
+- Lab 4 and Lab 6 are classification-focused and compare models using accuracy, precision, recall, F1 score, confusion matrix, and ROC-AUC.
+- Lab 5 focuses on a custom gradient descent implementation rather than a library-only linear regression call.
+- Lab 3 provides the regression metrics referenced in later labs.
 - Lab 7 uses the Iris dataset with a Decision Tree classifier.
 - Lab 8 uses categorical encoding with Naive Bayes for weather-based classification.
 - Lab 9 combines SVM classification with PCA and LDA analysis.
-
